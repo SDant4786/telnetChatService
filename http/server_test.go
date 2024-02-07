@@ -15,7 +15,7 @@ func init() {
 	cfg = config.Config{
 		HttpIp:     "127.0.0.1",
 		HttpPort:   "8080",
-		TelNetIp:   "127.0.0.0",
+		TelNetIp:   "127.0.0.1",
 		TelNetPort: "8181",
 		LogFile:    "fooFile.txt",
 	}
