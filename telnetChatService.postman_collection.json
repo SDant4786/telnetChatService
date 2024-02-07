@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "71804f8c-bd2b-4b1a-9abe-c3d49e687a46",
+		"name": "telnetChatService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "8295436"
+	},
+	"item": [
+		{
+			"name": "stats",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/stats",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"stats"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getLogs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "127.0.0.1:8080/getLogs",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"getLogs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "submitMessages",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{   \"channel\": \"foo\",\r\n    \"user\": \"s\",\r\n    \"message\":\"hello\"\r\n    }"
+				},
+				"url": {
+					"raw": "127.0.0.1:8080/submitMessage",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8080",
+					"path": [
+						"submitMessage"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,13 @@
+2023/07/17 10:12:51 created telnet server
+2023/07/17 10:12:51 Created http server
+2023/07/17 10:13:16 created telnet server
+2023/07/17 10:13:16 Created http server
+2023/07/17 10:13:24 creating new user. conn: 127.0.0.1:42362
+2023/07/17 10:13:25 new user created. conn: 127.0.0.1:42362, username: s
+2023/07/17 10:13:27 user: s quit
+2023/07/17 10:13:27 messege sending channel closed for user: s
+2023/07/17 10:13:27 receive channel closed for user: s
+2023/07/17 10:20:15 could not create telnet server listen tcp 127.0.0.1:8181: bind: address already in use
+2023/07/17 10:20:24 could not create telnet server listen tcp 127.0.0.1:8181: bind: address already in use
+2023/07/17 10:20:44 created telnet server
+2023/07/17 10:20:44 Created http server
